@@ -1,0 +1,22 @@
+.gifs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: 100px;
+}
+.gifs img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+}
+
+#subtitulo{
+background-color: rgb(47, 47, 192);
+color: #ffffff;
+}
+
+@media (max-width:576px){
+    .gifs{
+    display: block;
+    }
+  }
